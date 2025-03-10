@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/WebDesign1/img/bg.avif') no-repeat center center fixed;
+    background-size: cover;
+} 
+
+#container {
+    display: flex;
+    width: 850px;
+    height: 500px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    
+
+}
+
+
+#left-section{
+    flex: 1;
+    background: url('/WebDesign1/img/lockman.webp') no-repeat center center;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#right-section{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right-section h2 {
+    text-align: center;
+    color: #0066a1;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#right-section p{
+    text-align: center;
+    color: #66c7ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input-group{
+    position: relative;
+    margin-bottom: 15px;
+}
+.input-group input{
+    width: 100%;
+    padding: 12px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-group i{
+    position: absolute;
+    left: 15px;
+    top: 25%;
+    color: #aaa;
+}
+
+#forgot-pass{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(40, 81, 122);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#forgot-pass:hover{
+    text-decoration: none;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-group button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    
+    cursor: pointer;
+    font-size: 14px;
+    width: 100px;
+    transition: 0.3s ease;
+}
+
+.signin {
+    background:rgb(40, 81, 122);
+    color: white;
+    border: 1px solid rgb(40, 81, 122);
+}
+
+.signin:hover {
+    color: rgb(40, 81, 122);
+    background: rgb(240, 240, 240);
+}
+
+.signup {
+    background: rgb(245, 245, 245);
+    color: rgb(40, 81, 122);
+    border: 1px solid rgb(40, 81, 122);
+}
+
+.signup:hover{
+    color: white;
+    background: rgb(40, 81, 122);
+}
+
+.social-login{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: rgb(40, 81, 122);
+    color: white;
+}
