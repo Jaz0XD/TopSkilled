@@ -2,7 +2,7 @@
 const container = document.querySelector(".container");
 const optionsContainer = document.querySelector(".options-container");
 // "in" stands for India
-const country = "au";
+const country = "in";
 const options = [
   "general",
   "entertainment",
